@@ -5,6 +5,8 @@ def admin_login(username, password)
 
   else
     "Access denied"
+  end
+end
 
 def hows_the_weather(temperature)
  if temperature < 40
@@ -55,4 +57,7 @@ def calculator(operation, num1, num2)
   else puts "Invalid operation!"
 end
 end
+
+
+
 
